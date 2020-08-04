@@ -46,35 +46,46 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        $this->mapAdminRoutes();
         //
     }
 
     /**
-     * Define the "web" routes for the application.
-     *
-     * These routes all receive session state, CSRF protection, etc.
-     *
-     * @return void
+     * web 页面路由
+     * @author zesai
+     * @date 2020/8/4
      */
     protected function mapWebRoutes()
     {
         Route::middleware('web')
             ->namespace($this->namespace)
+            ->domain(config('app.web_domain'))
             ->group(base_path('routes/web.php'));
     }
 
     /**
-     * Define the "api" routes for the application.
-     *
-     * These routes are typically stateless.
-     *
-     * @return void
+     * api 接口路由
+     * @author zesai
+     * @date 2020/8/4
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('api')
-            ->middleware('api')
+        Route::middleware('api')
             ->namespace($this->namespace)
+            ->domain(config('app.api_domain'))
             ->group(base_path('routes/api.php'));
+    }
+
+    /**
+     * admin 接口路由
+     * @author zesai
+     * @date 2020/8/4
+     */
+    protected function mapAdminRoutes()
+    {
+        Route::middleware('admin')
+            ->namespace($this->namespace)
+            ->domain(config('app.admin_domain'))
+            ->group(base_path('routes/admin.php'));
     }
 }
