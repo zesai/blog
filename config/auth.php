@@ -46,6 +46,11 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+        ],
     ],
 
     /*
@@ -68,27 +73,27 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Models\Home\User::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'admins' => [
+             'driver' => 'eloquent',
+             'model' => App\Models\Admin\Admins::class,
+         ],
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Resetting Passwords
+    | 重设密码
     |--------------------------------------------------------------------------
     |
-    | You may specify multiple password reset configurations if you have more
-    | than one user table or model in the application and you want to have
-    | separate password reset settings based on the specific user types.
+    | 如果您有更多密码重置配置，则可以指定多个
+    | 而不是应用程序中的一个用户表或模型
+    | 根据特定的用户类型分别设置密码重置设置。
     |
-    | The expire time is the number of minutes that the reset token should be
-    | considered valid. This security feature keeps tokens short-lived so
-    | they have less time to be guessed. You may change this as needed.
+    | 到期时间是重置令牌应为的分钟数
+    | 认为有效。 此安全功能使令牌的寿命很短，因此
+    | 他们有更少的时间可以猜测。 您可以根据需要更改此设置。
     |
     */
 
@@ -103,7 +108,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Confirmation Timeout
+    | 密码确认超时
     |--------------------------------------------------------------------------
     |
     | Here you may define the amount of seconds before a password confirmation
