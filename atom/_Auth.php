@@ -1,4 +1,4 @@
-<?php 
+<?php
 class Auth {
 /**
  * Create a new authentication guard.
@@ -317,6 +317,17 @@ static public function check ()
 static public function guest ()  
 {
  	 return (new Illuminate\Auth\SessionGuard)->guest();
+}
+
+/**
+ * Attempt to get the guard from the local cache.
+ *
+ * @param  string|null  $name
+ * @return \Illuminate\Contracts\Auth\Guard|\Illuminate\Contracts\Auth\StatefulGuard
+ */
+static public function guard($name = null)
+{
+    return (new Illuminate\Auth\AuthManager())->guard($name);
 }
 /**
  * Get the user provider used by the guard.
