@@ -11,19 +11,21 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
+    <style type="text/css">
 
+    </style>
 </head>
 <body class="bg-gray-100">
 @include('home.layouts._header')
 
 <main>
     <div class="container py-4">
-        @include('home.shared._messages')
+        @include('home.shared._message')
         @yield('content')
     </div>
 </main>
@@ -32,7 +34,17 @@
 @include('home.layouts._footer')
 
 <!-- Scripts -->
-<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{asset('js/jquery.js')}}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.dropdown-trigger').dropdown({
+            coverTrigger: false,
+            hover: true
+        });
+    })
+
+</script>
 @yield('scripts')
 
 </body>

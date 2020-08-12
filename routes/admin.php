@@ -1,6 +1,6 @@
 <?php
 
-/** Auth 模块*/
+/** 后台 Auth 模块*/
 Route::group([
     'prefix' => 'auth',
     'middleware' => 'web'
