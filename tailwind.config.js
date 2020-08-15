@@ -1,13 +1,5 @@
 module.exports = {
   purge: [],
-<<<<<<< HEAD
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [require('@tailwindcss/ui')],
-}
-=======
   target: 'relaxed',
   prefix: '',
   important: false,

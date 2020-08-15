@@ -17,14 +17,37 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
     <style type="text/css">
+        header nav {
+            box-shadow: none;
+        }
 
+        header nav a {
+            outline: none;
+            color: #5a5a5a;
+            font-weight: bolder;
+            font-size: 16px;
+        }
+
+        header nav ul a:hover {
+            background-color: #F56565;
+            color: white;
+        }
+
+        header nav .brand-logo {
+            color: #48BB78;
+        }
+
+        #menu i {
+            font-size: 20px;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
 @include('home.layouts._header')
 
 <main>
-    <div class="container py-4">
+    <div class="container py-4 bg-white">
         @include('home.shared._message')
         @yield('content')
     </div>
@@ -35,13 +58,34 @@
 
 <!-- Scripts -->
 <script src="{{asset('js/jquery.js')}}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{asset('js/app.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function () {
+
+        // dropdown
         $('.dropdown-trigger').dropdown({
             coverTrigger: false,
             hover: true
         });
+
+        //轮播
+        $('.carousel').carousel({
+            fullWidth: true,
+            padding: 7,
+            shift: 10
+        });
+
+        //模态框设置
+        $('.modal').modal();
+
+        //
+        $('.fixed-action-btn').floatingActionButton({
+            direction: 'top',
+        });
+
+
+        $('.sidenav').sidenav();
+
     })
 
 </script>
