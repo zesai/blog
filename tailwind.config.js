@@ -759,4 +759,3 @@ module.exports = {
   corePlugins: {},
   plugins: [],
 };
->>>>>>> bdf8584eb103a77b76885e1d112d23605ede4839
