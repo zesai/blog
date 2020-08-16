@@ -1,5 +1,5 @@
 <header>
-    <nav style="height: 64px;" class="bg-white text-gray-900 border-none mb-6">
+    <nav style="height: 64px;" class="bg-white text-gray-500 border-none mb-6 shadow-md">
         <div class="nav-wrapper container flex justify-between">
             <div class="flex justify-between w-full sm:w-full md:w-full lg:justify-start xl:justify-start">
                 <!-- logo -->
@@ -16,16 +16,14 @@
                             <i class="material-icons left">laptop_windows</i>
                         </a>
                         <ul id="dropdown1" class="dropdown-content">
-                            <li><a href="#">one</a></li>
-                            <li><a href="#">two</a></li>
-                            <li><a href="#">three</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">Laravel</a></li>
+                            <li><a href="#">MySQL</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><i class="material-icons left">video_library</i>自媒体</a></li>
                     <li><a href="#"><i class="material-icons left">forum</i>留言板</a></li>
                     <li><a href="#"><i class="material-icons left">attachment</i>友情链接</a></li>
-
-
                 </ul>
 
             </div>

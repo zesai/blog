@@ -17,12 +17,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
     <style type="text/css">
-        header nav {
-            box-shadow: none;
+        * {
+            outline: none;
         }
 
         header nav a {
-            outline: none;
             color: #5a5a5a;
             font-weight: bolder;
             font-size: 16px;
@@ -37,13 +36,18 @@
             color: #48BB78;
         }
 
+        header nav .dropdown-content > li > a {
+            font-size: 13px;
+            color: #5a5a5a;
+        }
+
         #menu i {
             font-size: 20px;
             margin-right: 5px;
         }
     </style>
 </head>
-<body class="bg-gray-100">
+<body class="bg-white">
 @include('home.layouts._header')
 
 <main>
@@ -85,6 +89,17 @@
 
 
         $('.sidenav').sidenav();
+
+        //轮播组件
+        $('.carousel.carousel-slider').carousel({
+            full_width: true, //全宽度滑块
+            time_constant: 200, //转换时间(默认: 200) ：没测出什么意思，没什么变化
+            dist: -90, //缩放， 如过是0，所有的子项都是相同的尺寸 (默认: -100)：滑动时当前滑块缩放
+            shift: 0, //设置中间项的空隙。(默认: 0):滑动时两个滑块的空隙
+            padding: 0, //设定非中间项的内补白。(默认: 0) :滑动时两个滑块的空隙
+            indicators: true, //设置是否显示指标。(默认: false) :滑块下面的点链接
+            no_wrap: false //不循环播放子项目。(默认: false) ：没什么变化
+        });
 
     })
 
