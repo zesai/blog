@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /*!
   * Bootstrap v4.5.0 (https://getbootstrap.com/)
   * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -35,6 +37,7 @@
  * Date: 2020-05-04T22:49Z
  */
 
+>>>>>>> bdf8584eb103a77b76885e1d112d23605ede4839
 /**
  * @license
  * Lodash <https://lodash.com/>
@@ -43,6 +46,8 @@
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  */
+<<<<<<< HEAD
+=======
 
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
@@ -68,3 +73,4 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+>>>>>>> bdf8584eb103a77b76885e1d112d23605ede4839
