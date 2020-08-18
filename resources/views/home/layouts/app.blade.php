@@ -21,6 +21,10 @@
             outline: none;
         }
 
+        body {
+            background-image: url({{asset('image/bg_body.png')}});
+        }
+
         header nav a {
             color: #5a5a5a;
             font-weight: bolder;
@@ -45,9 +49,24 @@
             font-size: 20px;
             margin-right: 5px;
         }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #34495e;
+        }
+
+        a.btn {
+            box-shadow: none !important;
+            background: none !important;
+        }
+
+        a.btn:hover {
+            background-color: rgba(60,64,67,0.08) !important;
+            border-radius: 50% !important;
+        }
+
     </style>
 </head>
-<body class="bg-gray-100">
+<body>
 @include('home.layouts._header')
 
 <main>
@@ -57,13 +76,15 @@
     </div>
 </main>
 
-
+@include('home.components._fixed_action_btn')
 @include('home.layouts._footer')
 
 <!-- Scripts -->
 <script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
 <script type="text/javascript">
+    let uri = "{{Request::getUri()}}";
+
     $(document).ready(function () {
 
         // dropdown
@@ -100,6 +121,11 @@
             indicators: true, //设置是否显示指标。(默认: false) :滑块下面的点链接
             no_wrap: false //不循环播放子项目。(默认: false) ：没什么变化
         });
+
+    })
+
+    $.get(uri + 'article', function (data) {
+        console.log(data);
     })
 
 </script>
