@@ -1,6 +1,8 @@
 <?php
 
+
 namespace App\Http\Controllers\Auth;
+
 
 use App\Http\Controllers\Controller;
 use Auth;
@@ -8,7 +10,7 @@ use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\StatefulGuard;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
-class AdminController extends Controller
+class HomeController extends Controller
 {
     use AuthenticatesUsers;
 
@@ -16,7 +18,7 @@ class AdminController extends Controller
      * 重定向到首页
      * @var string
      */
-    protected $redirectTo = '/admin/index/index';
+    protected $redirectTo = '/';
 
 
     /**
@@ -27,6 +29,6 @@ class AdminController extends Controller
      */
     public function guard()
     {
-        return Auth::guard('admin');
+        return Auth::guard('home');
     }
 }

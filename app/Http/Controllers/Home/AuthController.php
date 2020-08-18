@@ -1,14 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Home;
 
 use Illuminate\Contracts\View\Factory;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\View\View;
 
-class AuthController extends BaseAdminController
+class AuthController extends BaseController
 {
-
     /**
      * 后台登陆页
      * @return Factory|View
@@ -17,6 +15,6 @@ class AuthController extends BaseAdminController
      */
     public function login()
     {
-        return view('admin.auth.login');
+        return view('home.auth.login');
     }
 }
