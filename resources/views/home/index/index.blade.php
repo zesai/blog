@@ -80,172 +80,108 @@
 
     <!-- 文章，sidebar -->
     <section>
-        <div class="row flex justify-between">
+        <div class="row">
             <!-- 文章列表 -->
-            <div class="col-11">
-                <ul id="staggered-test">
-                    <li class="" style="transform: translateX(0px); opacity: 1;">
-                        <div class="card-panel hoverable md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64">
-                            <div class="mt-4 rounded-r-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-red-500">
-                                0								Follower
-                            </div>
-
-                            <img class="h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
-                                 src="https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg" alt="bag">
-                            <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
-                                <div class="flex items-center">
-                                    <h2 class="text-xl text-gray-800 font-medium mr-auto">Your Travel Buddy</h2>
-                                    <p class="text-gray-800 font-semibold tracking-tighter">
-                                        only
-                                        <i class="text-gray-600 line-through">60$</i>
-                                        48$
+            <div class="col s12 m9 left">
+                <ul class="article-list md:">
+                    <li class="">
+                        <article
+                                class="card-panel hoverable md:flex mx-6 md:mx-auto my-40 max-w-lg md:max-w-full h-64 rounded-lg">
+                            <img class="transition duration-500 shadow-none transform scale-100 hover:scale-105 h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
+                                 src="{{asset('image/shubao.jpg')}}" alt="">
+                            <div class="flex flex-col w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
+                                <div class="flex flex-col">
+                                    <a class="text-xl text-gray-800 font-bold mr-auto">主题阿三大苏打撒旦撒旦</a>
+                                    <p class="text-sm text-gray-700 mt-4">
+                                        Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam
+                                        tempore commodi ipsa
                                     </p>
                                 </div>
-
-                                <p class="text-sm text-gray-700 mt-4">
-                                    Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam tempore commodi ipsa
-                                    suscipit laboriosam, sit earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-                                    commodi ipsa suscipit laboriosam, sit earum at sequi.
-                                </p>
-                                <div class="flex items-center justify-end mt-4 top-auto">
-                                    <button class="bg-white text-red-500 px-4 py-2 rounded mr-auto hover:underline">Delete</button>
-                                    <button class=" bg-gray-200 text-blue-600 px-2 py-2 rounded-md mr-2">Edit</button>
-                                    <button class=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">Publish</button>
+                                <hr class="divider">
+                                <div class="flex mt-auto items-center justify-between">
+                                    <div class="flex flex-row items-center">
+                                        <span class="flex items-center mr-2"><i class="material-icons">whatshot</i> 135</span>
+                                        <span class="flex items-center"><i class="material-icons">chat_bubble</i> 135</span>
+                                    </div>
+                                    <button class="flex items-center btn">
+                                        Read more <i class="material-icons">navigate_next</i>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     </li>
-                    <li class="" style="transform: translateX(0px); opacity: 1;">
-                        <div class="card-panel hoverable md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64">
-                            <div class="mt-4 rounded-r-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-red-500">
-                                0								Follower
-                            </div>
-
-                            <img class="h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
-                                 src="https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg" alt="bag">
-                            <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
-                                <div class="flex items-center">
-                                    <h2 class="text-xl text-gray-800 font-medium mr-auto">Your Travel Buddy</h2>
-                                    <p class="text-gray-800 font-semibold tracking-tighter">
-                                        only
-                                        <i class="text-gray-600 line-through">60$</i>
-                                        48$
+                    <li>
+                        <article
+                                class="card-panel hoverable md:flex mx-6 md:mx-auto my-40 max-w-lg md:max-w-full h-64 rounded-lg">
+                            <img class="transition duration-500 shadow-none transform scale-100 hover:scale-105 h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
+                                 src="{{asset('image/shubao.jpg')}}" alt="">
+                            <div class="flex flex-col w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
+                                <div class="flex flex-col">
+                                    <a class="text-xl text-gray-800 font-bold mr-auto">主题阿三大苏打撒旦撒旦</a>
+                                    <p class="text-sm text-gray-700 mt-4">
+                                        Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam
+                                        tempore commodi ipsa
                                     </p>
                                 </div>
-
-                                <p class="text-sm text-gray-700 mt-4">
-                                    Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam tempore commodi ipsa
-                                    suscipit laboriosam, sit earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-                                    commodi ipsa suscipit laboriosam, sit earum at sequi.
-                                </p>
-                                <div class="flex items-center justify-end mt-4 top-auto">
-                                    <button class="bg-white text-red-500 px-4 py-2 rounded mr-auto hover:underline">Delete</button>
-                                    <button class=" bg-gray-200 text-blue-600 px-2 py-2 rounded-md mr-2">Edit</button>
-                                    <button class=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">Publish</button>
+                                <hr class="divider">
+                                <div class="flex mt-auto items-center justify-between">
+                                    <div class="flex flex-row items-center">
+                                        <span class="flex items-center mr-2"><i class="material-icons">whatshot</i> 135</span>
+                                        <span class="flex items-center"><i class="material-icons">chat_bubble</i> 135</span>
+                                    </div>
+                                    <button class="flex items-center btn">
+                                        Read more <i class="material-icons">navigate_next</i>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     </li>
-                    <li class="" style="transform: translateX(0px); opacity: 1;">
-                        <div class="card-panel hoverable md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64">
-                            <div class="mt-4 rounded-r-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-red-500">
-                                0								Follower
-                            </div>
-
-                            <img class="h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
-                                 src="https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg" alt="bag">
-                            <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
-                                <div class="flex items-center">
-                                    <h2 class="text-xl text-gray-800 font-medium mr-auto">Your Travel Buddy</h2>
-                                    <p class="text-gray-800 font-semibold tracking-tighter">
-                                        only
-                                        <i class="text-gray-600 line-through">60$</i>
-                                        48$
+                    <li>
+                        <article
+                                class="card-panel hoverable md:flex mx-6 md:mx-auto my-40 max-w-lg md:max-w-full h-64 rounded-lg">
+                            <img class="transition duration-500 shadow-none transform scale-100 hover:scale-105 h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
+                                 src="{{asset('image/shubao.jpg')}}" alt="">
+                            <div class="flex flex-col w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
+                                <div class="flex flex-col">
+                                    <a class="text-xl text-gray-800 font-bold mr-auto">主题阿三大苏打撒旦撒旦</a>
+                                    <p class="text-sm text-gray-700 mt-4">
+                                        Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam
+                                        tempore commodi ipsa
                                     </p>
                                 </div>
-
-                                <p class="text-sm text-gray-700 mt-4">
-                                    Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam tempore commodi ipsa
-                                    suscipit laboriosam, sit earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-                                    commodi ipsa suscipit laboriosam, sit earum at sequi.
-                                </p>
-                                <div class="flex items-center justify-end mt-4 top-auto">
-                                    <button class="bg-white text-red-500 px-4 py-2 rounded mr-auto hover:underline">Delete</button>
-                                    <button class=" bg-gray-200 text-blue-600 px-2 py-2 rounded-md mr-2">Edit</button>
-                                    <button class=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">Publish</button>
+                                <hr class="divider">
+                                <div class="flex mt-auto items-center justify-between">
+                                    <div class="flex flex-row items-center">
+                                        <span class="flex items-center mr-2"><i class="material-icons">whatshot</i> 135</span>
+                                        <span class="flex items-center"><i class="material-icons">chat_bubble</i> 135</span>
+                                    </div>
+                                    <button class="flex items-center btn">
+                                        Read more <i class="material-icons">navigate_next</i>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="" style="transform: translateX(0px); opacity: 1;">
-                        <div class="card-panel hoverable md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64">
-                            <div class="mt-4 rounded-r-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-red-500">
-                                0								Follower
-                            </div>
-
-                            <img class="h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
-                                 src="https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg" alt="bag">
-                            <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
-                                <div class="flex items-center">
-                                    <h2 class="text-xl text-gray-800 font-medium mr-auto">Your Travel Buddy</h2>
-                                    <p class="text-gray-800 font-semibold tracking-tighter">
-                                        only
-                                        <i class="text-gray-600 line-through">60$</i>
-                                        48$
-                                    </p>
-                                </div>
-
-                                <p class="text-sm text-gray-700 mt-4">
-                                    Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam tempore commodi ipsa
-                                    suscipit laboriosam, sit earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-                                    commodi ipsa suscipit laboriosam, sit earum at sequi.
-                                </p>
-                                <div class="flex items-center justify-end mt-4 top-auto">
-                                    <button class="bg-white text-red-500 px-4 py-2 rounded mr-auto hover:underline">Delete</button>
-                                    <button class=" bg-gray-200 text-blue-600 px-2 py-2 rounded-md mr-2">Edit</button>
-                                    <button class=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">Publish</button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="" style="transform: translateX(0px); opacity: 1;">
-                        <div class="card-panel hoverable md:flex shadow-lg  mx-6 md:mx-auto my-40 max-w-lg md:max-w-2xl h-64">
-                            <div class="mt-4 rounded-r-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-red-500">
-                                0								Follower
-                            </div>
-
-                            <img class="h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
-                                 src="https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg" alt="bag">
-                            <div class="w-full md:w-2/3 px-4 py-4 bg-white rounded-lg">
-                                <div class="flex items-center">
-                                    <h2 class="text-xl text-gray-800 font-medium mr-auto">Your Travel Buddy</h2>
-                                    <p class="text-gray-800 font-semibold tracking-tighter">
-                                        only
-                                        <i class="text-gray-600 line-through">60$</i>
-                                        48$
-                                    </p>
-                                </div>
-
-                                <p class="text-sm text-gray-700 mt-4">
-                                    Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam tempore commodi ipsa
-                                    suscipit laboriosam, sit earum at sequ adipisicing elit. Amet veritatis ipsam reiciendis numquam tempore
-                                    commodi ipsa suscipit laboriosam, sit earum at sequi.
-                                </p>
-                                <div class="flex items-center justify-end mt-4 top-auto">
-                                    <button class="bg-white text-red-500 px-4 py-2 rounded mr-auto hover:underline">Delete</button>
-                                    <button class=" bg-gray-200 text-blue-600 px-2 py-2 rounded-md mr-2">Edit</button>
-                                    <button class=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">Publish</button>
-                                </div>
-                            </div>
-                        </div>
+                        </article>
                     </li>
                 </ul>
             </div>
             <!-- sidebar -->
-            <div class="col-1">
-                <div> div1</div>
-                <div>div2</div>
-                <div>div3</div>
+            <div class="col s12 m3 right sm:hidden md:hidden lg:block xl:block">
+                <div class="card border-blue-100 border-2 w-full h-64">
+                    <div class="card-header-pills">asdasdasd</div>
+                    <div class="card-content">asdjsadihaiowdwoqndo</div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <div>
+                        <span></span>
+                        <span><i></i></span>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -291,19 +227,32 @@
 
     <section>
         <div class="carousel bg-white">
-            <a class="carousel-item" href="#four!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/1"></a>
-            <a class="carousel-item" href="#four!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/2"></a>
-            <a class="carousel-item" href="#four!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/3"></a>
-            <a class="carousel-item" href="#four!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/4"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
-            <a class="carousel-item" href="#five!"><img class="hover:opacity-75" src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#four!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/1"></a>
+            <a class="carousel-item" href="#four!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/2"></a>
+            <a class="carousel-item" href="#four!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#four!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
+            <a class="carousel-item" href="#five!"><img class="hover:opacity-75"
+                                                        src="https://lorempixel.com/250/250/nature/5"></a>
         </div>
     </section>
 

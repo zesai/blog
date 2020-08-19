@@ -17,42 +17,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
     <style type="text/css">
-        * {
-            outline: none;
-        }
-        
-        body {
-            background-image: url({{asset('image/bg_body.png')}});
-        }
-
-        header nav a {
-            color: #5a5a5a;
-            font-weight: bolder;
-            font-size: 16px;
-        }
-
-        header nav ul a:hover {
-            background-color: #F56565;
-            color: white;
-        }
-
-        header nav .brand-logo {
-            color: #48BB78;
-        }
-
-        header nav .dropdown-content > li > a {
-            font-size: 13px;
-            color: #5a5a5a;
-        }
-
-        #menu i {
-            font-size: 20px;
-            margin-right: 5px;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            color: #34495e;
-        }
 
         a.btn {
             box-shadow: none !important;
@@ -64,34 +28,10 @@
             border-radius: 50% !important;
         }
 
-        /* 滚动条 */
-        ::-webkit-scrollbar-thumb:horizontal { /*水平滚动条的样式*/
-            width: 4px;
-            background-color: #CCCCCC;
-            -webkit-border-radius: 6px;
+        .card-panel {
+            box-shadow: none;
+            border-radius: 0.5rem;
         }
-        ::-webkit-scrollbar-track-piece {
-            background-color: #fff; /*滚动条的背景颜色*/
-            -webkit-border-radius: 0; /*滚动条的圆角宽度*/
-        }
-        ::-webkit-scrollbar {
-            width: 10px; /*滚动条的宽度*/
-            height: 8px; /*滚动条的高度*/
-        }
-        ::-webkit-scrollbar-thumb:vertical { /*垂直滚动条的样式*/
-            height: 50px;
-            background-color: #999;
-            -webkit-border-radius: 4px;
-            outline: 2px solid #fff;
-            outline-offset: -2px;
-            border: 2px solid #fff;
-        }
-        ::-webkit-scrollbar-thumb:hover { /*滚动条的hover样式*/
-            height: 50px;
-            background-color: #9f9f9f;
-            -webkit-border-radius: 4px;
-        }
-
     </style>
 </head>
 <body>

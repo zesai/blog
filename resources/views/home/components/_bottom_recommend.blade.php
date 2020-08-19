@@ -8,14 +8,14 @@
         </div>
     </div>
 
-    <div class="flex">
-        <div class="mx-auto px-2 max-w-xl">
+    <div class="grid grid-cols-4 gap-4">
+        <div class="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-1 mx-auto px-2 max-w-xl">
             <div class="bg-white hoverable rounded-lg mb-6 tracking-wide" >
                 <div class="md:flex-shrink-0">
                     <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none">
                 </div>
                 <div class="px-4 py-2 mt-2">
-                    <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</h2>
+                    <span class="pb-1 font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</span>
                     <p class="text-sm text-gray-700 px-2 mr-1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
                     </p>
@@ -39,13 +39,13 @@
                 </div>
             </div>
         </div>
-        <div class="mx-auto px-2 max-w-xl">
+        <div class="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-1 mx-auto px-2 max-w-xl">
             <div class="bg-white hoverable rounded-lg mb-6 tracking-wide" >
                 <div class="md:flex-shrink-0">
                     <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none">
                 </div>
                 <div class="px-4 py-2 mt-2">
-                    <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</h2>
+                    <span class="pb-1 font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</span>
                     <p class="text-sm text-gray-700 px-2 mr-1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
                     </p>
@@ -61,13 +61,13 @@
                 </div>
             </div>
         </div>
-        <div class="mx-auto px-2 max-w-xl">
+        <div class="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-1 mx-auto px-2 max-w-xl">
             <div class="bg-white  hoverable rounded-lg mb-6 tracking-wide" >
                 <div class="md:flex-shrink-0">
                     <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none">
                 </div>
                 <div class="px-4 py-2 mt-2">
-                    <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</h2>
+                    <span class="pb-1 font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</span>
                     <p class="text-sm text-gray-700 px-2 mr-1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
                     </p>
@@ -83,14 +83,14 @@
                 </div>
             </div>
         </div>
-        <div class="mx-auto px-2 max-w-xl">
+        <div class="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-1 mx-auto px-2 max-w-xl">
             <div class="bg-white hoverable rounded-lg mb-6 tracking-wide" >
                 <div class="md:flex-shrink-0">
                     <img src="https://ik.imagekit.io/q5edmtudmz/post1_fOFO9VDzENE.jpg" alt="mountains" class="w-full h-64 rounded-lg rounded-b-none">
                 </div>
                 <div class="px-4 py-2 mt-2">
-                    <h2 class="font-bold text-2xl text-gray-800 tracking-normal">My Amaizing Journey to the Mountains.</h2>
-                    <p class="text-sm text-gray-700 px-2 mr-1">
+                    <a class="leading-normal w-full font-black text-2xl text-gray-800 overflow-hidden" href="#">多语言开发需要了解的国家语种代码标准</a>
+                    <p class="text-sm text-gray-700 px-2 mr-1 mt-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia maxime deserunt porro amet ab debitis deleniti modi soluta similique...
                     </p>
                     <div class="flex items-center justify-between mt-2 mx-6">
