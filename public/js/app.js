@@ -12512,6 +12512,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var materialize_css_dist_js_materialize__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(materialize_css_dist_js_materialize__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_init__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./material.init */ "./resources/js/material.init.js");
 /* harmony import */ var _material_init__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_init__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _scrollTop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scrollTop */ "./resources/js/scrollTop.js");
+/* harmony import */ var _scrollTop__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scrollTop__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -12525,6 +12528,35 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 $(document).ready(function () {});
+
+/***/ }),
+
+/***/ "./resources/js/scrollTop.js":
+/*!***********************************!*\
+  !*** ./resources/js/scrollTop.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var timer = null;
+$('#publish-top').on('click', function () {
+  cancelAnimationFrame(timer); //获取当前毫秒数
+
+  var startTime = +new Date(); //获取当前页面的滚动高度
+
+  var b = document.body.scrollTop || document.documentElement.scrollTop;
+  var d = 500;
+  var c = b;
+  timer = requestAnimationFrame(function func() {
+    var t = d - Math.max(0, startTime - +new Date() + d);
+    document.documentElement.scrollTop = document.body.scrollTop = t * -c / d + b;
+    timer = requestAnimationFrame(func);
+
+    if (t === d) {
+      cancelAnimationFrame(timer);
+    }
+  });
+});
 
 /***/ }),
 
@@ -12546,8 +12578,8 @@ $(document).ready(function () {});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vagrant/Code/yzs/blog/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/vagrant/Code/yzs/blog/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/code/blog/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/code/blog/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

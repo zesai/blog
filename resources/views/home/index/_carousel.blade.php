@@ -1,5 +1,5 @@
 <section class="mb-5">
-    <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel carousel-slider center" id="index-carousel" data-indicators="true">
         <a href="#">
             <div class="carousel-item white-text rounded"
                  style="background-image: url('{{asset('image/banner1.jpg')}}')">

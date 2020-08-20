@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d13d84-278c-4c66-b602-be535a2bcad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/scrollTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/components/_bottom_recommend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/_bottom_recommend.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,26 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="407">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1090">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -64,13 +59,76 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="190" column="42" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <element signature="e#321#3177#0#HTML" />
-                <element signature="e#3239#3270#0#HTML" expanded="true" />
-                <element signature="e#15628#16981#0#HTML" />
-                <element signature="e#16987#18782#0#HTML" />
+                <element signature="e#278#303#0#HTML" expanded="true" />
+                <element signature="e#375#715#0#HTML" />
+                <element signature="e#1093#11906#0#HTML" />
+                <element signature="e#1217#3290#0#HTML" />
+                <element signature="e#1326#1609#0#HTML" />
+                <element signature="e#1777#3259#0#HTML" />
+                <element signature="e#2188#2211#0#HTML" expanded="true" />
+                <element signature="e#3315#5388#0#HTML" />
+                <element signature="e#3424#3707#0#HTML" />
+                <element signature="e#3875#5357#0#HTML" />
+                <element signature="e#4286#4309#0#HTML" expanded="true" />
+                <element signature="e#5413#7486#0#HTML" />
+                <element signature="e#5522#5805#0#HTML" />
+                <element signature="e#5973#7455#0#HTML" />
+                <element signature="e#6384#6407#0#HTML" expanded="true" />
+                <element signature="e#7511#9584#0#HTML" />
+                <element signature="e#7620#7903#0#HTML" />
+                <element signature="e#8071#9553#0#HTML" />
+                <element signature="e#8482#8505#0#HTML" expanded="true" />
+                <element signature="e#9609#11657#0#HTML" />
+                <element signature="e#9693#9976#0#HTML" />
+                <element signature="e#10144#11626#0#HTML" />
+                <element signature="e#10555#10578#0#HTML" expanded="true" />
+                <element signature="e#2980#3208#0#HTML" />
+                <element signature="e#11873#13946#0#HTML" />
+                <element signature="e#11982#12265#0#HTML" />
+                <element signature="e#12433#13915#0#HTML" />
+                <element signature="e#12844#12867#0#HTML" expanded="true" />
+                <element signature="e#13971#16044#0#HTML" />
+                <element signature="e#14080#14363#0#HTML" />
+                <element signature="e#14531#16013#0#HTML" />
+                <element signature="e#14942#14965#0#HTML" expanded="true" />
+                <element signature="e#16069#18142#0#HTML" />
+                <element signature="e#16178#16461#0#HTML" />
+                <element signature="e#16629#18111#0#HTML" />
+                <element signature="e#17040#17063#0#HTML" expanded="true" />
+                <element signature="e#18167#20240#0#HTML" />
+                <element signature="e#18276#18559#0#HTML" />
+                <element signature="e#18727#20209#0#HTML" />
+                <element signature="e#19138#19161#0#HTML" expanded="true" />
+                <element signature="e#20265#22313#0#HTML" />
+                <element signature="e#20349#20632#0#HTML" />
+                <element signature="e#20800#22282#0#HTML" />
+                <element signature="e#5295#5318#0#HTML" expanded="true" />
+                <element signature="e#3229#3454#0#HTML" />
+                <element signature="e#22427#24500#0#HTML" />
+                <element signature="e#22536#22819#0#HTML" />
+                <element signature="e#22987#24469#0#HTML" />
+                <element signature="e#23398#23421#0#HTML" expanded="true" />
+                <element signature="e#24525#26598#0#HTML" />
+                <element signature="e#24634#24917#0#HTML" />
+                <element signature="e#25085#26567#0#HTML" />
+                <element signature="e#25496#25519#0#HTML" expanded="true" />
+                <element signature="e#26623#28696#0#HTML" />
+                <element signature="e#26732#27015#0#HTML" />
+                <element signature="e#27183#28665#0#HTML" />
+                <element signature="e#27594#27617#0#HTML" expanded="true" />
+                <element signature="e#28721#30794#0#HTML" />
+                <element signature="e#28830#29113#0#HTML" />
+                <element signature="e#29281#30763#0#HTML" />
+                <element signature="e#29692#29715#0#HTML" expanded="true" />
+                <element signature="e#30819#32867#0#HTML" />
+                <element signature="e#30903#31186#0#HTML" />
+                <element signature="e#31354#32836#0#HTML" />
+                <element signature="e#6530#6553#0#HTML" expanded="true" />
+                <element signature="e#7798#9823#0#HTML" />
+                <element signature="e#3804#4407#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -88,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="100">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -106,7 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>App\User</find>
       <find>find</find>
       <find>where()</find>
       <find>Talk</find>
@@ -129,6 +186,14 @@
       <find>sidenav</find>
       <find>FloatingActionButton</find>
       <find>collection</find>
+      <find>tab</find>
+      <find>tabs</find>
+      <find>display: 'block'</find>
+      <find>.tabs</find>
+      <find>Tabs</find>
+      <find>Carousel</find>
+      <find>interval</find>
+      <find>top</find>
     </findStrings>
     <replaceStrings>
       <replace>App\Models\Home\User</replace>
@@ -141,9 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Services/Order.php" />
-        <option value="$PROJECT_DIR$/resources/views/base/swoole.html" />
-        <option value="$PROJECT_DIR$/resources/views/base/swoole.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/cache.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
@@ -160,7 +222,6 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/AdminAuthLogin.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/tailwind.config.js" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/layouts/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/layouts/footer.blade.php" />
@@ -171,7 +232,6 @@
         <option value="$PROJECT_DIR$/routes/admin.php" />
         <option value="$PROJECT_DIR$/resources/views/home/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/Material.init.js" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/js/material.init.js" />
         <option value="$PROJECT_DIR$/node_modules/materialize-css/dist/css/materialize.css" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -179,7 +239,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Home/ArticleController.php" />
         <option value="$PROJECT_DIR$/resources/views/home/components/_comment_list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/user/_author_card.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AdminController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/HomeController.php" />
@@ -187,11 +246,17 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Home/AuthController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/home/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home/index/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/components/_bottom_recommend.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/node_modules/materialize-css/dist/js/materialize.js" />
+        <option value="$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php" />
+        <option value="$PROJECT_DIR$/node_modules/materialize-css/js/carousel.js" />
+        <option value="$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/scrollTop.js" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/index/index.blade.php" />
       </list>
     </option>
   </component>
@@ -316,11 +381,11 @@
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="44" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="153" />
+    <option name="y" value="49" />
     <option name="width" value="1820" />
-    <option name="height" value="947" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -378,7 +443,19 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -396,7 +473,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-bjyblog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -458,18 +535,19 @@
       <workItem from="1597626415198" duration="12694000" />
       <workItem from="1597713260225" duration="18714000" />
       <workItem from="1597741851524" duration="2412000" />
-      <workItem from="1597803158438" duration="16156000" />
+      <workItem from="1597803158438" duration="16310000" />
+      <workItem from="1597886674302" duration="24080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159691000" />
+    <option name="totallyTimeSpent" value="183925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="35" width="1820" height="947" extended-state="0" />
+    <frame x="153" y="49" width="1820" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499385" visible="true" weight="0.19431818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499385" visible="true" weight="0.21022727" />
       <window_info id="Structure" order="1" sideWeight="0.500615" side_tool="true" weight="0.225" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -517,34 +595,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="259" column="8" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/uploads/image/avatar/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/uploads/image/avatar/02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/sass/components/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/sass/components/_cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4303" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -559,23 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17495">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/scrollspy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -643,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -677,27 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/dist/js/materialize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8722" column="73" selection-start-line="8722" selection-start-column="53" selection-end-line="8722" selection-end-column="73" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/user/_author_card.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -713,13 +722,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/raalhu-blog-master/raalhu-blog-master/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="7804" column="1" selection-start-line="7804" selection-start-column="1" selection-end-line="7804" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/lib/cli/emoji.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -804,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -825,6 +820,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/components/_bottom_recommend.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -832,36 +834,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1090">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="475">
+          <caret line="11168" column="1" selection-start-line="11168" selection-start-column="1" selection-end-line="11168" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="5298" column="27" selection-start-line="5298" selection-start-column="19" selection-end-line="5298" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="329" column="4" selection-start-line="329" selection-start-column="4" selection-end-line="329" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/dist/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11238" column="12" selection-start-line="11238" selection-start-column="4" selection-end-line="11238" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#132860#132920#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/js/scrollspy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="178" column="25" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/components/_fixed_action_btn.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="125">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index/_carousel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/scrollTop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17467" column="17" selection-start-line="17467" selection-start-column="17" selection-end-line="17467" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="190" column="42" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="42" />
+        <state relative-caret-position="165">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="e#321#3177#0#HTML" />
-            <element signature="e#3239#3270#0#HTML" expanded="true" />
-            <element signature="e#15628#16981#0#HTML" />
-            <element signature="e#16987#18782#0#HTML" />
+            <element signature="e#278#303#0#HTML" expanded="true" />
+            <element signature="e#375#715#0#HTML" />
+            <element signature="e#1093#11906#0#HTML" />
+            <element signature="e#1217#3290#0#HTML" />
+            <element signature="e#1326#1609#0#HTML" />
+            <element signature="e#1777#3259#0#HTML" />
+            <element signature="e#2188#2211#0#HTML" expanded="true" />
+            <element signature="e#3315#5388#0#HTML" />
+            <element signature="e#3424#3707#0#HTML" />
+            <element signature="e#3875#5357#0#HTML" />
+            <element signature="e#4286#4309#0#HTML" expanded="true" />
+            <element signature="e#5413#7486#0#HTML" />
+            <element signature="e#5522#5805#0#HTML" />
+            <element signature="e#5973#7455#0#HTML" />
+            <element signature="e#6384#6407#0#HTML" expanded="true" />
+            <element signature="e#7511#9584#0#HTML" />
+            <element signature="e#7620#7903#0#HTML" />
+            <element signature="e#8071#9553#0#HTML" />
+            <element signature="e#8482#8505#0#HTML" expanded="true" />
+            <element signature="e#9609#11657#0#HTML" />
+            <element signature="e#9693#9976#0#HTML" />
+            <element signature="e#10144#11626#0#HTML" />
+            <element signature="e#10555#10578#0#HTML" expanded="true" />
+            <element signature="e#2980#3208#0#HTML" />
+            <element signature="e#11873#13946#0#HTML" />
+            <element signature="e#11982#12265#0#HTML" />
+            <element signature="e#12433#13915#0#HTML" />
+            <element signature="e#12844#12867#0#HTML" expanded="true" />
+            <element signature="e#13971#16044#0#HTML" />
+            <element signature="e#14080#14363#0#HTML" />
+            <element signature="e#14531#16013#0#HTML" />
+            <element signature="e#14942#14965#0#HTML" expanded="true" />
+            <element signature="e#16069#18142#0#HTML" />
+            <element signature="e#16178#16461#0#HTML" />
+            <element signature="e#16629#18111#0#HTML" />
+            <element signature="e#17040#17063#0#HTML" expanded="true" />
+            <element signature="e#18167#20240#0#HTML" />
+            <element signature="e#18276#18559#0#HTML" />
+            <element signature="e#18727#20209#0#HTML" />
+            <element signature="e#19138#19161#0#HTML" expanded="true" />
+            <element signature="e#20265#22313#0#HTML" />
+            <element signature="e#20349#20632#0#HTML" />
+            <element signature="e#20800#22282#0#HTML" />
+            <element signature="e#5295#5318#0#HTML" expanded="true" />
+            <element signature="e#3229#3454#0#HTML" />
+            <element signature="e#22427#24500#0#HTML" />
+            <element signature="e#22536#22819#0#HTML" />
+            <element signature="e#22987#24469#0#HTML" />
+            <element signature="e#23398#23421#0#HTML" expanded="true" />
+            <element signature="e#24525#26598#0#HTML" />
+            <element signature="e#24634#24917#0#HTML" />
+            <element signature="e#25085#26567#0#HTML" />
+            <element signature="e#25496#25519#0#HTML" expanded="true" />
+            <element signature="e#26623#28696#0#HTML" />
+            <element signature="e#26732#27015#0#HTML" />
+            <element signature="e#27183#28665#0#HTML" />
+            <element signature="e#27594#27617#0#HTML" expanded="true" />
+            <element signature="e#28721#30794#0#HTML" />
+            <element signature="e#28830#29113#0#HTML" />
+            <element signature="e#29281#30763#0#HTML" />
+            <element signature="e#29692#29715#0#HTML" expanded="true" />
+            <element signature="e#30819#32867#0#HTML" />
+            <element signature="e#30903#31186#0#HTML" />
+            <element signature="e#31354#32836#0#HTML" />
+            <element signature="e#6530#6553#0#HTML" expanded="true" />
+            <element signature="e#7798#9823#0#HTML" />
+            <element signature="e#3804#4407#0#HTML" />
           </folding>
         </state>
       </provider>

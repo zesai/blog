@@ -24,9 +24,15 @@
         }
 
         a.btn:hover {
-            background-color: rgba(60,64,67,0.08) !important;
+            background-color: rgba(60, 64, 67, 0.08) !important;
             border-radius: 50% !important;
         }
+
+        .tabs .tab a {
+            color: #26a69a;
+            font-weight: bold;
+        }
+
 
         .card-panel {
             box-shadow: none;
@@ -87,16 +93,26 @@
             shift: 0, //设置中间项的空隙。(默认: 0):滑动时两个滑块的空隙
             padding: 0, //设定非中间项的内补白。(默认: 0) :滑动时两个滑块的空隙
             indicators: true, //设置是否显示指标。(默认: false) :滑块下面的点链接
-            no_wrap: false //不循环播放子项目。(默认: false) ：没什么变化
+            no_wrap: false, //不循环播放子项目。(默认: false) ：没什么变化
         });
 
-    })
+        //tooltip 提示
+        $('.toolTipped').tooltip({
+            margin: 3,
+            transitionMovement: 5,
+        });
+
+        //tabs 选项卡
+        $('.tabs').tabs();
+
+    });
 
     $.get(uri + 'article', function (data) {
         console.log(data);
     })
 
 </script>
+<script src="{{asset('js/scrollTop.js')}}"></script>
 @yield('scripts')
 
 </body>
