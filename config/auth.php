@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Admin\Admins;
+
 return [
 
     /*
@@ -51,6 +53,11 @@ return [
             'driver' => 'session',
             'provider' => 'admins',
         ],
+
+        'socialite' => [
+            'driver' => 'session',
+            'provider' => 'socialite',
+        ],
     ],
 
     /*
@@ -80,6 +87,11 @@ return [
              'driver' => 'eloquent',
              'model' => App\Models\Admin\Admins::class,
          ],
+
+        'socialite' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Home\SocialiteUser::class,
+        ]
     ],
 
     /*

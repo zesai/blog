@@ -3,11 +3,13 @@
 namespace App\Models\Home;
 
 use App\Models\Model;
+use Illuminate\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Notifications\Notifiable;
 
 class User extends Model
 {
-    use Notifiable;
+    use Authenticatable, Notifiable, SoftDeletes;
 
     /**
      * The attributes that are mass assignable.

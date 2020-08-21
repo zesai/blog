@@ -4,7 +4,7 @@ namespace App\Models;
 
 use EloquentBuilder;
 use QueryBuilder;
-use Illuminate\Foundation\Auth\User as Authenticate;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
 /**
  * Class Model
  * @package App\Models
@@ -12,7 +12,7 @@ use Illuminate\Foundation\Auth\User as Authenticate;
  * @mixin QueryBuilder
  * @mixin EloquentBuilder
  */
-class Model extends Authenticate
+class Model extends EloquentModel
 {
 
 }

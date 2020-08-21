@@ -12,7 +12,7 @@
 
     <section>
         <div class="row">
-            <div class="col s12 m9 left" style="padding-left: 0px">
+            <div class="col s12 m9 left" style="padding-left: 0">
                 <!-- 顶部文章面板 -->
                 <div class="bg-white pt-4 pb-1 px-2 h-75">
                     <ul id="tabs-swipe-demo" class="tabs mb-1">
@@ -24,6 +24,7 @@
                         <li class="tab"><a href="#hot-article-panel"><span class="inline-flex items-center"><i
                                             class="material-icons text-xl mr-1">whatshot</i>热门文章</span></a></li>
                     </ul>
+                    <!-- 置顶文章 -->
                     <div id="top-article-panel" class="h-75">
                         <div class="flex items-center w-full py-2 border-b border-gray-200 w-full ml-1">
                             <div class="user-avatar">
@@ -32,10 +33,38 @@
                                 </a>
                             </div>
                             <span class="text-sm px-3 cursor-pointer text-center w-20 py-1 bg-red-200 text-red-800 rounded mx-2">翻译</span>
+                            <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2 h-full"
+                               href="" target="_blank">
+                                <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
+                                <span class="flex h-full items-center hidden sm:hidden md:inline-block lg:inline-block xl:inline-block ml-auto"
+                                      style="font-size: 13px">
+                                    <span class="count_set">
+                                        <span class="toolTipped inline-flex items-center" data-position="top"
+                                              data-tooltip="热度 2">
+                                            <i class="material-icons text-red-500 text-xl mr-1">whatshot</i>2
+                                        </span>
+                                    </span>
+                                    <span class="mx-1 h-full my-auto">|</span>
+                                    <span class="count_set">
+                                        <span class="toolTipped inline-flex items-center" data-position="top"
+                                              data-tooltip="评论 2">
+                                            <i class="material-icons text-teal-500 text-xl mr-1">mode_comment</i>2
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="flex items-center w-full py-2 border-b border-gray-200 w-full ml-1">
+                            <div class="user-avatar">
+                                <a href="" class="rm-tdu" target="_blank">
+                                    <img src="{{asset('image/shubao.jpg')}}" alt="" class="w-12 h-10 rounded">
+                                </a>
+                            </div>
+                            <span class="text-sm px-3 cursor-pointer text-center w-20 py-1 bg-red-200 text-red-800 rounded mx-2">翻译</span>
                             <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2"
                                href="" target="_blank">
                                 <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
-                                <span class="hidden sm:hidden md:block lg:block xl:block ml-auto text-right"
+                                <span class="hidden sm:hidden md:inline-block lg:inline-block xl:inline-block ml-auto"
                                       style="font-size: 13px">
                                     <span class="count_set">
                                         <span class="toolTipped inline-flex items-center" data-position="top"
@@ -63,7 +92,7 @@
                             <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2"
                                href="" target="_blank">
                                 <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
-                                <span class="hidden sm:hidden md:block lg:block xl:block ml-auto text-right"
+                                <span class="hidden sm:hidden md:inline-block lg:inline-block xl:inline-block ml-auto"
                                       style="font-size: 13px">
                                     <span class="count_set">
                                         <span class="toolTipped inline-flex items-center" data-position="top"
@@ -91,35 +120,7 @@
                             <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2"
                                href="" target="_blank">
                                 <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
-                                <span class="hidden sm:hidden md:block lg:block xl:block ml-auto text-right"
-                                      style="font-size: 13px">
-                                    <span class="count_set">
-                                        <span class="toolTipped inline-flex items-center" data-position="top"
-                                              data-tooltip="热度 2">
-                                            <i class="material-icons text-red-500 text-xl mr-1">whatshot</i>2
-                                        </span>
-                                    </span>
-                                    <span class="inline-flex items-center mx-1">|</span>
-                                    <span class="count_set">
-                                        <span class="toolTipped inline-flex items-center" data-position="top"
-                                              data-tooltip="评论 2">
-                                            <i class="material-icons text-teal-500 text-xl mr-1">mode_comment</i>2
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="flex items-center w-full py-2 border-b border-gray-200 w-full ml-1">
-                            <div class="user-avatar">
-                                <a href="" class="rm-tdu" target="_blank">
-                                    <img src="{{asset('image/shubao.jpg')}}" alt="" class="w-12 h-10 rounded">
-                                </a>
-                            </div>
-                            <span class="text-sm px-3 cursor-pointer text-center w-20 py-1 bg-red-200 text-red-800 rounded mx-2">翻译</span>
-                            <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2"
-                               href="" target="_blank">
-                                <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
-                                <span class="hidden sm:hidden md:block lg:block xl:block ml-auto text-right"
+                                <span class="hidden sm:hidden md:inline-block lg:inline-block xl:inline-block ml-auto"
                                       style="font-size: 13px">
                                     <span class="count_set">
                                         <span class="toolTipped inline-flex items-center" data-position="top"
@@ -147,7 +148,7 @@
                             <a class="flex w-full items-center justify-between text-gray-700 text-base font-bold mr-2"
                                href="" target="_blank">
                                 <span class="article-top-title hover:text-gray-500">[进度 40％] Tailwind CSS 小技巧</span>
-                                <span class="hidden sm:hidden md:block lg:block xl:block ml-auto text-right"
+                                <span class="hidden sm:hidden md:inline-block lg:inline-block xl:inline-block ml-auto"
                                       style="font-size: 13px">
                                     <span class="count_set">
                                         <span class="toolTipped inline-flex items-center" data-position="top"
@@ -166,6 +167,7 @@
                             </a>
                         </div>
                     </div>
+                    <!-- 每日随机文章 -->
                     <div id="random-article-panel" class="h-75">
                         <div class="flex items-center w-full py-2 border-b border-gray-200 w-full ml-1">
                             <div class="user-avatar">
@@ -308,6 +310,7 @@
                             </a>
                         </div>
                     </div>
+                    <!-- 热门文章 -->
                     <div id="hot-article-panel" class="h-75">
                         <div class="flex items-center w-full py-2 border-b border-gray-200 w-full ml-1">
                             <div class="user-avatar">
@@ -452,6 +455,17 @@
                     </div>
                 </div>
                 <div class="h-40 my-4 bg-gray-400 rounded"></div>
+            </div>
+            <!-- 文章列表 -->
+            <div class="col s12 m3 right" style="padding: 0 0 0 0.75rem;">
+                @include('home.user._author_card')
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col s12 m9 left" style="padding-left: 0">
                 <!--文章列表-->
                 <ul class="article-list inline-block">
                     <li>
@@ -477,7 +491,7 @@
                                                         class="material-icons">chat_bubble</i> 135</span>
                                         </div>
                                         <button class="flex items-center btn">
-                                            Read more <i class="material-icons">navigate_next</i>
+                                            Read more <i class="material-icons">last page</i>
                                         </button>
                                     </div>
                                 </div>
@@ -486,10 +500,8 @@
                     </li>
                 </ul>
             </div>
-            <!-- 文章列表 -->
             <div class="col s12 m3 right" style="padding: 0 0 0 0.75rem;">
-            @include('home.user._author_card')
-            <!-- sidebar -->
+                <!-- sidebar -->
                 <div class="col s12 m3 right sm:hidden md:hidden lg:block xl:block">
                     <div class="card border-blue-100 border-2 w-full h-64">
                         <div class="card-header-pills">asdasdasd</div>

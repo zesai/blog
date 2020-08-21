@@ -84629,6 +84629,17 @@ body {
   background-image: url("/image/bg_body.png");
 }
 
+header a.sidenav-trigger {
+  color: #5a5a5a;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+header a.sidenav-trigger:hover {
+  background-color: #F56565;
+  color: white;
+}
+
 header nav .brand-logo {
   color: #48BB78;
 }

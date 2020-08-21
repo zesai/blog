@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')@if(request()->path() !== '/') - {{ config('app.name', 'Laravel') }} @endif</title>
     <meta name="keywords" content="@yield('keywords')">
@@ -44,7 +43,7 @@
 @include('home.layouts._header')
 
 <main>
-    <div class="container py-4">
+    <div class="container py-1">
         @include('home.shared._message')
         @yield('content')
     </div>
