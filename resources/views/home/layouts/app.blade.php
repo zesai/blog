@@ -41,7 +41,7 @@
 </head>
 <body>
 @include('home.layouts._header')
-
+{{dump(Request::server('HTTP_HOST'))}}
 <main>
     <div class="container py-1">
         @include('home.shared._message')
@@ -56,7 +56,6 @@
 <script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
 <script type="text/javascript">
-    let uri = "{{Request::getUri()}}";
 
     $(document).ready(function () {
 
@@ -104,11 +103,20 @@
         //tabs 选项卡
         $('.tabs').tabs();
 
+        $('.materialboxed').materialbox();
+
+        $('.slider').slider({
+            indicators: false
+        });
+
     });
 
-    $.get(uri + 'article', function (data) {
+    $.get('article', function (data) {
         console.log(data);
     })
+
+</script>
+<script type="text/javascript">
 
 </script>
 <script src="{{asset('js/scrollTop.js')}}"></script>

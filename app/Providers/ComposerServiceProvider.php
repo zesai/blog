@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use App\Models\Home\SocialiteUser;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\View;
 
@@ -25,7 +24,7 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer(['home/index/index'], function (View $view) {
+        view()->composer(['home/layouts/_header'], function (View $view) {
 
             $socialiteUser = auth()->guard('socialite')->user();
 

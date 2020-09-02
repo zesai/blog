@@ -14,6 +14,7 @@ Route::group([
     Route::group(['namespace' => 'Home'], function () {
         Route::get('/', 'IndexController@index');
         Route::get('/article', 'ArticleController@getArticleList');
+        Route::get('/chat', 'ChatController@index');
     });
 
 });
@@ -24,6 +25,7 @@ Route::group([
     ''
 ], function () {
 
+    Route::post('/upload/{type}', 'IndexController@index');
     //退出登录
     Route::get('/logout', 'Auth\HomeController@logout')->name('logout');
 });

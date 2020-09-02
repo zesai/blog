@@ -467,18 +467,17 @@
         <div class="row">
             <div class="col s12 m9 left" style="padding-left: 0">
                 <!--文章列表-->
-                <ul class="article-list inline-block">
-                    <li>
+                <ul class="article-list inline-block bg-white w-full">
+                    <li class="hover:bg-gray-100">
                         <article
-                                class="card-panel hoverable md:flex mx-6 md:mx-auto my-40 max-w-lg md:max-w-full h-64 rounded-lg">
-                            <img class="transition duration-500 shadow-none transform scale-100 hover:scale-105 h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"
+                                class="flex mx-6 md:mx-auto pl-3  py-2 max-w-lg md:max-w-full h-56">
+                            <img class="transition duration-300 transform scale-90 hover:scale-100 w-1/3 sm:w-1/6 md:w-1/3 rounded-lg pb-5/6"
                                  src="{{asset('image/shubao.jpg')}}" alt="">
-                            <div class="flex flex-col w-full md:w-2/3 px-4 pt-2 bg-white rounded-lg">
+                            <div class="flex flex-col w-full md:w-2/3 px-4 pt-2">
                                 <div class="flex flex-col">
-                                    <a class="text-xl text-gray-800 font-bold mr-auto">主题阿三大苏打撒旦撒旦</a>
+                                    <a class="text-xl text-gray-800 font-bold mr-auto">文章标题</a>
                                     <p class="text-sm text-gray-700 mt-4">
-                                        Lorem, ipsum dolor sit amet consectetur Amet veritatis ipsam reiciendis numquam
-                                        tempore commodi ipsa
+                                        文章描述
                                     </p>
                                 </div>
                                 <div class="mt-auto">
@@ -491,13 +490,42 @@
                                                         class="material-icons">chat_bubble</i> 135</span>
                                         </div>
                                         <button class="flex items-center btn">
-                                            Read more <i class="material-icons">last page</i>
+                                            Read more <i class="material-icons">fast_forward</i>
                                         </button>
                                     </div>
                                 </div>
                             </div>
                         </article>
                     </li>
+{{--                    <li>--}}
+{{--                        <article--}}
+{{--                                class="card-panel md:flex mx-3 md:mx-auto my-20 max-w-lg md:max-w-full h-64 rounded-lg">--}}
+{{--                            <img class="transition duration-500 shadow-none transform scale-100 hover:scale-105 h-full w-full md:w-1/3  object-cover rounded-lg rounded-r-none pb-5/6"--}}
+{{--                                 src="{{asset('image/shubao.jpg')}}" alt="">--}}
+{{--                            <div class="flex flex-col w-full md:w-2/3 px-4 pt-2 bg-white rounded-lg">--}}
+{{--                                <div class="flex flex-col">--}}
+{{--                                    <a class="text-xl text-gray-800 font-bold mr-auto">文章标题</a>--}}
+{{--                                    <p class="text-sm text-gray-700 mt-4">--}}
+{{--                                        文章描述--}}
+{{--                                    </p>--}}
+{{--                                </div>--}}
+{{--                                <div class="mt-auto">--}}
+{{--                                    <hr class="divider mb-1">--}}
+{{--                                    <div class="flex mt-auto items-center justify-between bottom-0">--}}
+{{--                                        <div class="flex flex-row items-center">--}}
+{{--                                        <span class="flex items-center mr-2"><i--}}
+{{--                                                    class="material-icons">whatshot</i> 135</span>--}}
+{{--                                            <span class="flex items-center"><i--}}
+{{--                                                        class="material-icons">chat_bubble</i> 135</span>--}}
+{{--                                        </div>--}}
+{{--                                        <button class="flex items-center btn">--}}
+{{--                                            Read more <i class="material-icons">fast_forward</i>--}}
+{{--                                        </button>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                    </li>--}}
                 </ul>
             </div>
             <div class="col s12 m3 right" style="padding: 0 0 0 0.75rem;">
